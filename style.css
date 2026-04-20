@@ -1,0 +1,143 @@
+/* ===== ОБЩИЕ СТИЛИ ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8fafc;
+    color: #1f2937;
+}
+
+/* ===== HEADER ===== */
+.header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    color: white;
+}
+
+/* ===== NAV ===== */
+.nav {
+    display: flex;
+    justify-content: center;
+    background: #111827;
+}
+
+.nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    background: #22c55e;
+    color: black;
+}
+
+/* ===== HERO ===== */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background: #ffffff;
+}
+
+.hero img {
+    width: 360px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.hero img:hover {
+    transform: scale(1.05);
+}
+
+/* ===== БЛОКИ ===== */
+.block {
+    padding: 50px;
+    text-align: center;
+}
+
+.light {
+    background: #f1f5f9;
+}
+
+/* ===== КАРТОЧКИ ===== */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    width: 260px;
+    border-radius: 12px;
+    border-top: 4px solid #dc2626;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-top: 4px solid #22c55e;
+}
+
+/* ===== FEATURES ===== */
+.features {
+    display: grid;
+    gap: 12px;
+    font-size: 18px;
+}
+
+.features div {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    border-left: 5px solid #22c55e;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* ===== LIST ===== */
+ul, ol {
+    display: inline-block;
+    text-align: left;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #dc2626;
+}
+
+/* ===== IMAGES ===== */
+img {
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #111827;
+    color: white;
+}
+
+/* ===== АКЦЕНТЫ ===== */
+h2 {
+    color: #dc2626;
+}
+
+h3 {
+    color: #16a34a;
+}
